@@ -1,0 +1,22 @@
+.states {
+  stroke: #000;
+  stroke-width: .5;
+  fill: none;
+}
+
+.bubbles {
+  stroke: #000;
+  fill-opacity: .5;
+}
+
+#popoverText {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #fff;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+}
