@@ -56,7 +56,7 @@ class ChloroBubble extends Component {
 
       const colorScale = d3.scaleThreshold()
           .domain([0, 8, 12, 16, 20, 24, 30, 45])
-          .range(["#f7fcfd","#e0ecf4","#bfd3e6","#9ebcda","#8c96c6","#8c6bb1","#88419d","#810f7c","#4d004b"]);
+          .range(["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"]);
 
       const g = svg.append("g")
           .attr("class", "key")
